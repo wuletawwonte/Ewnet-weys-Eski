@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gracesoft.ewnet_weys_eski">
    <application
-        android:label="ewnet_weys_eski"
+        android:label="እውነት ወይስ እስኪ"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
