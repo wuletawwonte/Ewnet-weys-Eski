@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/pages/entry_page.dart';
+import 'package:ewnet_weys_eski/pages/entry_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

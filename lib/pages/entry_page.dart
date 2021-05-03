@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/pages/welcome_page.dart';
-import 'package:truth_or_dare/shared/theme/colors.dart';
-import 'package:truth_or_dare/shared/theme/images.dart';
-import 'package:truth_or_dare/utils/no_animation_navigator_push.dart';
+import 'package:ewnet_weys_eski/pages/welcome_page.dart';
+import 'package:ewnet_weys_eski/shared/theme/colors.dart';
+import 'package:ewnet_weys_eski/shared/theme/images.dart';
+import 'package:ewnet_weys_eski/utils/no_animation_navigator_push.dart';
 
 const double _itcLogoBottomOffset = 70;
 const double _translationHidden = -300;
@@ -19,7 +19,8 @@ class EntryPage extends StatefulWidget {
   _EntryPageState createState() => _EntryPageState();
 }
 
-class _EntryPageState extends State<EntryPage> with SingleTickerProviderStateMixin {
+class _EntryPageState extends State<EntryPage>
+    with SingleTickerProviderStateMixin {
   Timer _timer;
   Color _color = AppColors.blueBackground;
   double _questionMarkRightOffset = _translationQuestionMarkHidden;
@@ -56,7 +57,9 @@ class _EntryPageState extends State<EntryPage> with SingleTickerProviderStateMix
             bottom: 0,
             right: _questionMarkRightOffset,
             duration: _transitionAnimationDuration,
-            curve: _questionMarkRightOffset == _translationQuestionMarkHidden ? Curves.elasticIn : Curves.elasticOut,
+            curve: _questionMarkRightOffset == _translationQuestionMarkHidden
+                ? Curves.elasticIn
+                : Curves.elasticOut,
             onEnd: _animateExclamationMark,
             child: Image.asset(
               Images.questionMark,
@@ -68,7 +71,9 @@ class _EntryPageState extends State<EntryPage> with SingleTickerProviderStateMix
             bottom: 0,
             left: _exclamationMarkLeftOffset,
             duration: _transitionAnimationDuration,
-            curve: _exclamationMarkLeftOffset == _translationHidden ? Curves.elasticIn : Curves.elasticOut,
+            curve: _exclamationMarkLeftOffset == _translationHidden
+                ? Curves.elasticIn
+                : Curves.elasticOut,
             child: Image.asset(
               Images.exclamationMark,
               fit: BoxFit.fitHeight,
@@ -94,7 +99,8 @@ class _EntryPageState extends State<EntryPage> with SingleTickerProviderStateMix
 
   void _startChangeColorTimer() {
     _timer?.cancel();
-    _timer = Timer.periodic(_changeColorTimerDuration, (timer) => _changeColor());
+    _timer =
+        Timer.periodic(_changeColorTimerDuration, (timer) => _changeColor());
   }
 
   void _showQuestionMark() {

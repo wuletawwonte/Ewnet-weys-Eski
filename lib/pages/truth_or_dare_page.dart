@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/domain/truth_or_dare.dart';
-import 'package:truth_or_dare/pages/truth_or_dare_ui_extension.dart';
-import 'package:truth_or_dare/domain/truth_or_dare_data_source.dart';
-import 'package:truth_or_dare/shared/theme/dims.dart';
-import 'package:truth_or_dare/shared/theme/images.dart';
-import 'package:truth_or_dare/shared/theme/typography.dart';
-import 'package:truth_or_dare/widgets/truth_or_dare_tile.dart';
+import 'package:ewnet_weys_eski/domain/truth_or_dare.dart';
+import 'package:ewnet_weys_eski/pages/truth_or_dare_ui_extension.dart';
+import 'package:ewnet_weys_eski/domain/truth_or_dare_data_source.dart';
+import 'package:ewnet_weys_eski/shared/theme/dims.dart';
+import 'package:ewnet_weys_eski/shared/theme/images.dart';
+import 'package:ewnet_weys_eski/shared/theme/typography.dart';
+import 'package:ewnet_weys_eski/widgets/truth_or_dare_tile.dart';
 
 import '../shared/theme/colors.dart';
 

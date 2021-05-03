@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/domain/truth_or_dare.dart';
-import 'package:truth_or_dare/pages/truth_or_dare_ui_extension.dart';
+import 'package:ewnet_weys_eski/domain/truth_or_dare.dart';
+import 'package:ewnet_weys_eski/pages/truth_or_dare_ui_extension.dart';
 
 const Duration _animationDuration = Duration(milliseconds: 500);
 const double _heightFactor = 2 / 3;

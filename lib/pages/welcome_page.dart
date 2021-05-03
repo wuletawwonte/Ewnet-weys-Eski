@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/pages/selection_page.dart';
-import 'package:truth_or_dare/shared/theme/dims.dart';
-import 'package:truth_or_dare/shared/theme/typography.dart';
-import 'package:truth_or_dare/utils/no_animation_navigator_push.dart';
-import 'package:truth_or_dare/widgets/black_button.dart';
+import 'package:ewnet_weys_eski/pages/selection_page.dart';
+import 'package:ewnet_weys_eski/shared/theme/dims.dart';
+import 'package:ewnet_weys_eski/shared/theme/typography.dart';
+import 'package:ewnet_weys_eski/utils/no_animation_navigator_push.dart';
+import 'package:ewnet_weys_eski/widgets/black_button.dart';
 
 import '../shared/theme/colors.dart';
 import '../shared/theme/images.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/shared/theme/dims.dart';
-import 'package:truth_or_dare/shared/theme/typography.dart';
+import 'package:ewnet_weys_eski/shared/theme/dims.dart';
+import 'package:ewnet_weys_eski/shared/theme/typography.dart';
 
 const double _borderRadius = 24;
 
@@ -13,7 +13,8 @@ class BlackButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(_borderRadius)),
+      shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(_borderRadius)),
       elevation: 0,
       onPressed: onTap,
       color: Colors.black,

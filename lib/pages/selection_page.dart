@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare/domain/truth_or_dare.dart';
-import 'package:truth_or_dare/domain/truth_or_dare_data_source.dart';
-import 'package:truth_or_dare/pages/truth_or_dare_page.dart';
-import 'package:truth_or_dare/utils/no_animation_navigator_push.dart';
-import 'package:truth_or_dare/widgets/truth_or_dare_tile.dart';
+import 'package:ewnet_weys_eski/domain/truth_or_dare.dart';
+import 'package:ewnet_weys_eski/domain/truth_or_dare_data_source.dart';
+import 'package:ewnet_weys_eski/pages/truth_or_dare_page.dart';
+import 'package:ewnet_weys_eski/utils/no_animation_navigator_push.dart';
+import 'package:ewnet_weys_eski/widgets/truth_or_dare_tile.dart';
 
 import '../shared/theme/colors.dart';
 
@@ -133,7 +133,9 @@ class _SelectionPageState extends State<SelectionPage> {
   void _navigateToTruthOrDarePage(TruthOrDare truthOrDare) {
     if (_didPushPage) return;
     _didPushPage = true;
-    pushWithoutAnimation(context, TruthOrDarePage(truthOrDare, TruthOrDareLocalGenerator())).then((_) {
+    pushWithoutAnimation(
+            context, TruthOrDarePage(truthOrDare, TruthOrDareLocalGenerator()))
+        .then((_) {
       _didPushPage = false;
       _revertAnimations();
     });

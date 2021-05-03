@@ -1,9 +1,9 @@
-import 'package:truth_or_dare/domain/truth_or_dare.dart';
-import 'package:truth_or_dare/shared/theme/images.dart';
+import 'package:ewnet_weys_eski/domain/truth_or_dare.dart';
+import 'package:ewnet_weys_eski/shared/theme/images.dart';
 
 extension ViewRepresentation on TruthOrDare {
   String get nameImage {
-    switch(this) {
+    switch (this) {
       case TruthOrDare.truth:
         return Images.truth;
       case TruthOrDare.dare:
@@ -14,7 +14,7 @@ extension ViewRepresentation on TruthOrDare {
   }
 
   String get image {
-    switch(this) {
+    switch (this) {
       case TruthOrDare.truth:
         return Images.questionMark;
       case TruthOrDare.dare:
