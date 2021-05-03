@@ -1,0 +1,4 @@
+enum TruthOrDare {
+  truth,
+  dare,
+}
