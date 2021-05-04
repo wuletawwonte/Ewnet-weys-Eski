@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Truth or Dare',
+      debugShowCheckedModeBanner: false,
+      title: 'እውነት ወይስ እስኪ',
       home: EntryPage(),
       theme: ThemeData.dark(),
     );
